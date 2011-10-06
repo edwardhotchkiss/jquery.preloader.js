@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">   
+
+<html>
+
+	<head>
+
+		<title>Preloader &raquo; Demos &raquo; With Options</title>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/com/EdwardHotchkiss/Loaders/Preloader.js"></script>
+		
+		<style type="text/css">
+			
+			#container {
+				display: none;
+				width: 800px;
+				margin: 0 auto 0 auto;
+				margin-top: 80px;
+			}
+			
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<div id="container">
+		
+			<img src="img/preloaded.jpg" alt="Preloaded!" />
+			
+		</div>
+		
+		<script type="text/javascript">
+		
+			$.Preloader(
+				{
+					barColor     : "#fff",
+					overlayColor : "#000",
+					barHeight    : "10px",
+					siteHolder   : "#container"	
+				}
+			);
+		
+		</script>
+		
+	</body>
+	
+</html>
+	
+
